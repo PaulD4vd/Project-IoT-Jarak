@@ -5,10 +5,10 @@ const port = 3000;
 
 // Setup InfluxDB connection
 const token =
-  "Da4o1zlGGFO8sgmDhePMR4BrUOabX5n6xKVOfohoWUCpGiwN5OGEQ68vd7K4o3-YfUva-i80BlYhxVNeHKEMdA==";
-const org = "e1751da18330c349";
-const bucket = "sensorcoba";
-const url = "http://103.210.35.189:8086"; // InfluxDB URL
+  "";
+const org = "";
+const bucket = "";
+const url = ""; // InfluxDB URL
 
 const influxDB = new InfluxDB({ url, token });
 const queryApi = influxDB.getQueryApi(org);
@@ -153,6 +153,6 @@ app.get("/", (req, res) => {
   `);
 });
 
-app.listen(8128, '0.0.0.0', () => {
-  console.log('Server running at http://103.210.35.189:8128');
+app.listen( , '0.0.0.0', () => {
+  console.log('Server running at');
 });
