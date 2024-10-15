@@ -6,14 +6,14 @@
 #define ECHO_PIN 21  // Pin echo
 
 // WiFi credentials
-const char* ssid = "Alona2";         // Ganti dengan SSID Wi-Fi Anda
-const char* password ="manggolo";   // Ganti dengan password Wi-Fi Anda
+const char* ssid = "";         // Ganti dengan SSID Wi-Fi Anda
+const char* password ="";   // Ganti dengan password Wi-Fi Anda
 
 // InfluxDB credentials
-const char* influxdb_server = "http://103.210.35.189:8086"; // Alamat InfluxDB Anda
-const char* influxdb_bucket = "sensorcoba";                 // Nama bucket InfluxDB Anda
-const char* influxdb_org = "e1751da18330c349";                      // Ganti dengan organisasi Anda di InfluxDB
-const char* influxdb_token = "EWrX0FCW3vOH3ZK1fB3m_zfBA4dgXJ8NYYlqsv3ySJEhyrzun2BM4tRnd-A_SiH6cDQb33IywcCjSvCFU1Nd0A==";                  // Ganti dengan API token dari InfluxDB
+const char* influxdb_server = ""; // Alamat InfluxDB Anda
+const char* influxdb_bucket = "";                 // Nama bucket InfluxDB Anda
+const char* influxdb_org = "";                      // Ganti dengan organisasi Anda di InfluxDB
+const char* influxdb_token = "";                  // Ganti dengan API token dari InfluxDB
 
 WiFiClient client;
 
